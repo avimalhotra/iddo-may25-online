@@ -130,6 +130,50 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 
 
 
+.wrap-9{ background: var(--white); color: #363636; padding: 100px 0 125px; }
+.doughnut{ aspect-ratio: 1/1; border-radius: 50%; margin-top: 80px; position: relative; display: grid; place-items: center;}
+.d75{ background: conic-gradient(var(--red) 270deg, #fff 270deg)}
+.d25{ background: conic-gradient(var(--red) 90deg, #fff 90deg)}
+.d50{ background: conic-gradient(var(--red) 180deg, #fff 180deg)}
+.doughnut::before{ content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; border-radius: 50%; margin: 10px; background: #fff; }
+.doughnut span{ position: relative; color: var(--red);}
+.accordion{ margin-top: 80px;}
+.accordion li{ margin-bottom: 10px; }
+.accordion a{ display: block; border: 1px solid #ebebeb; color: #898989; padding: 13px 19px; border-radius: 10px;}
+.accordion a span{ margin-right: 17px;}
+.accordion p{ color: #363636; font: 100 14px/22px var(--ff); display: none; margin: 20px;}
+.accordion a.active{ color: var(--red);}
+.accordion li:first-child p{ display: block;}
+.accordion a::after{ content: '+'; float: right;}
+.accordion a.active::after{ content: '-'; }
+
+
+.wrap-10{ padding: 23px 0 22px; background: var(--red);}
+.wrap-10 input{ width: 370px; height: 35px; background: none; border: none; font: 100 36px var(--ff); color: var(--white); }
+.wrap-10 .btn{ background: #fff;}
+.wrap-10 input::placeholder{ color: var(--white);}
+
+
+.wrap-11{ padding: 23px 0 22px; background: #7f7f7f;}
+.box{ line-height: 95px; text-align: center; background: #a6a6a6; color: #fff; }
+
+
+
+.wrap-12{ background: #ebebeb; color: #363636; padding: 100px 0 140px; }
+.social2 li{ margin: 20px 20px 20px 0; }
+.social2  a{ color: var(--red);}
+.wrap-12 label{ display: block; border: 2px solid #363636; padding: 16px; }
+.wrap-12 input{ background: none; border: none; }
+.wrap-12 textarea{ background: none; border: none; vertical-align: top; resize: none; height: 44px; }
+.wrap-12 button{ width: 100%; background: var(--white); border: none; color: var(--red); height: 80px; border-radius: 10px;}
+.wrap-12 button span.fa{ font-size: 36px; vertical-align: middle;}
+.wrap-12 address{ margin: 40px 0;}
+
+
+.wrap-13{ background: #252525; text-align: center; padding: 50px 0; color: #fff;}
+
+.wrap-13 button{ background: none; color: var(--red); border: none; font-size: 36px;} 
+
 
 /* responsive */
 @media screen and (max-width:1220px){
@@ -156,40 +200,33 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
     .social ul{ flex-flow: column; }
     .social li{ margin: 0 0 10px 0;}
     .wrap-8 p{ font-size: 48px;}
+    .col-t-hide{ display: none; }
+    .show5{ grid-template-columns: repeat(5, 1fr); }
+    .col-t-auto{ grid-column: auto; }
 }
 
 @media screen and (max-width:767px){
     html{ font-size: 12px; }
-    .col-m-1{ grid-column: span 1; }
-    .col-m-2{ grid-column: span 2; }
     .col-m-3{ grid-column: span 3; }
     .col-m-4{ grid-column: span 4; }
-    .col-m-5{ grid-column: span 5; }
     .col-m-6{ grid-column: span 6; }
-    .col-m-7{ grid-column: span 7; }
     .col-m-8{ grid-column: span 8; }
     .col-m-9{ grid-column: span 9; }
-    .col-m-10{ grid-column: span 10; }
-    .col-m-11{ grid-column: span 11; }
     .col-m-12{ grid-column: span 12; }
     .collapse{ display: none;}
+    .show5{ grid-template-columns: repeat(2, 1fr); }
+     .col-m-dbl{ grid-column: 1/3; }
 }
 
 @media screen and (max-width:460px){
-    .col-p-1{ grid-column: span 1; }
-    .col-p-2{ grid-column: span 2; }
-    .col-p-3{ grid-column: span 3; }
     .col-p-4{ grid-column: span 4; }
-    .col-p-5{ grid-column: span 5; }
     .col-p-6{ grid-column: span 6; }
-    .col-p-7{ grid-column: span 7; }
-    .col-p-8{ grid-column: span 8; }
-    .col-p-9{ grid-column: span 9; }
-    .col-p-10{ grid-column: span 10; }
-    .col-p-11{ grid-column: span 11; }
     .col-p-12{ grid-column: span 12; }
     .banner .flex{ flex-flow: column; }
     .banner p{ font-size: 2rem; margin-top: 2rem;}
     .work img{ width: 100%;}
     .wrap-6 p{font-size: 24px;}
+    .wrap-10 input{ width: 240px; font-size: 22px;}
+    .show5{ grid-template-columns: repeat(1, 1fr); }
+    .col-t-auto{  grid-column: 1/3;} 
 }
