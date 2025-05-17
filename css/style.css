@@ -31,6 +31,8 @@ html{
     --ff:'Proxima Nova', sans-serif;
     --red:#ca3c3c;
     --white:#fff;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 body{ font: 16px/1.3 var(--ff); }
@@ -172,7 +174,9 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 
 .wrap-13{ background: #252525; text-align: center; padding: 50px 0; color: #fff;}
 
+
 .wrap-13 button{ background: none; color: var(--red); border: none; font-size: 36px;} 
+
 
 
 /* responsive */
