@@ -114,9 +114,15 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 .wrap-6  p{  font: 100 36px/1.14 var(--ff) }
 .wrap-6 img{ margin-top: 17px;}
 .wrap-6 b{ display: block; margin: 0.66rem 0 2rem;}
-.pager li{ margin: 0 5px; }
+.reviews blockquote{ display: none;}
+.reviews blockquote:first-child{ display: block;}
+.wrap-6 .slick-slide img{ margin: auto; }
+.wrap-6 .slick-dots li button:before{ display: none; }
+.wrap-6 .slick-dots li button{ width: 10px; height: 10px; border: 2px solid #fff; padding: 0; border-radius: 50%; }
+.wrap-6 .slick-active button{ background: #fff; }
+/* .pager li{ margin: 0 5px; }
 .pager a{ display: block; width: 10px; height: 10px; border: 2px solid; color: #fff; border-radius: 50%; }
-.pager a.active{ background: var(--white);}
+.pager a.active{ background: var(--white);} */
 
 
 
