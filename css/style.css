@@ -74,14 +74,14 @@ nav a{ color: inherit; display: block; line-height: 80px; padding: 0 1rem;}
 .menu.active span:nth-child(1){ rotate: -12deg; }
 .menu.active span:nth-child(2){ opacity: 0;}
 .menu.active span:nth-child(3){ rotate: 12deg; }
-
+header .btn{ color: #cd5656;}
 
 
 
 .banner{ background: #666; color: var(--white); padding: 20rem 0;}
 .banner button{ font-size: 10rem; background: none; border: none; color: inherit; margin-right: 40px;}
 .banner p{ font-size: 4rem; font-weight: 100;}
-.banner a{ color: var(--red); }
+.banner a{ color: #fff; }
 
 
 
@@ -96,12 +96,12 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 
 
 .wrap-5{ background: #ebebeb; color: #363636; padding: 100px 0 140px; }
-.wrap-5 .btn{ margin: 2rem 0.66rem 4rem 0; }
+.wrap-5 .btn{ margin: 2rem 0.66rem 4rem 0; color: #b53333; }
 .wrap-5 .btn.active{ background: var(--red); color: var(--white); border-color: var(--red); }
 .work{ position: relative; overflow: hidden;}
 .work .caption{ background: var(--white); position: absolute; left: 0; right: 0; bottom: -50px; text-align: center; padding: 20px 0; opacity: 0; visibility: hidden; transition: 500ms; }
 .work .caption h3{  color: var(--red); font-size: 18px; line-height: 40px;}
-.work .caption p{ color: #898989; font-size: 14px; font-weight: 100; line-height: 20px;}
+.work .caption p{ color: #666; font-size: 14px; font-weight: 100; line-height: 20px;}
 .work:hover .caption{ opacity: 1; visibility: visible; bottom: 0;}
 .seemore{ border: none; background: none; color: var(--red); font-size: 36px; margin-top: 2rem;}
 /* .wrap-5 .all:nth-child(7),.wrap-5 .all:nth-child(8),.wrap-5 .all:nth-child(9){ display: none;} */
@@ -134,7 +134,7 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 .social a{ display: block; font-size: 24px; width: 50px; line-height: 50px; text-align: center; border-radius: 50px; background: var(--red); color: var(--white); }
 .gap{ margin: 50px 0 0 100px;}
 .gap h3{ color: var(--red); font-size: 18px; margin-bottom: 10px;}
-.gap small{ font: 100 14px var(--ff); color: #898989;}
+.gap small{ font: 100 14px var(--ff); color: #666;}
 .gap p{ color: #363636; font: 100 14px/22px var(--ff); margin-top: 1rem;}
 .wrap-7 .all:nth-last-child(-n+3){ display: none;}
 
@@ -156,7 +156,7 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 .doughnut span{ position: relative; color: var(--red);}
 .accordion{ margin-top: 80px;}
 .accordion li{ margin-bottom: 10px; }
-.accordion a{ display: block; border: 1px solid #ebebeb; color: #898989; padding: 13px 19px; border-radius: 10px;}
+.accordion a{ display: block; border: 1px solid #ebebeb; color: #666; padding: 13px 19px; border-radius: 10px;}
 .accordion a span{ margin-right: 17px;}
 .accordion p{ color: #363636; font: 100 14px/22px var(--ff); display: none; margin: 20px;}
 .accordion a.active{ color: var(--red);}
@@ -172,7 +172,7 @@ h2{ font-size: 72px; line-height: .83; border-bottom: 10px solid;}
 
 
 .wrap-11{ padding: 23px 0 22px; background: #7f7f7f;}
-.box{ line-height: 95px; text-align: center; background: #a6a6a6; color: #fff; }
+.box{ line-height: 95px; text-align: center; background: #666; color: #fff; }
 
 
 
